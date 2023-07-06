@@ -1,0 +1,97 @@
+section .about-us {
+  min-height: 100vh;
+  width: 100%;
+  /* background-image: linear-gradient(rgba(4, .9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/course-bg.jpg); */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#about-us {
+  /* background-color: #A32F80; */
+  width: 100%;
+  padding-top: 100px;
+  text-align: center;
+  margin: auto;
+
+}
+
+.about-us h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.about-us p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px 0 25px;
+}
+
+.about-col {
+  flex-basis: 49%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 12px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0);
+}
+
+.about-us h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+
+.video {
+  background-color: blue;
+  /* filter: blur(8px); */
+  cursor: pointer;
+}
+
+
+
+
+video:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0);
+  transition: 0.5s;
+}
+
+
+@media(max-width:900px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+
+#about-us {
+  /* background: #654ea3;
+  
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+ 
+  background: linear-gradient(to right, #eaafc8, #654ea3);
+   */
+
+   background-image: linear-gradient(
+    120deg, 
+    hsl(260 70% 40%), 
+    hsl(0, 70%, 50%)
+  );
+
+  /* background-color:#A32F80; */
+  width: 100%;
+  padding-top: 100px;
+  text-align: center;
+  margin: auto;
+
+}

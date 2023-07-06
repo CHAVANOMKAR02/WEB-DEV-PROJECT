@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap");
+* {
+	box-sizing: border-box;
+}
+ 
+body {
+	position: fixed;
+	width: 100%;
+	/* background-color: #9b8df5; */
+	
+}
+.wrapper {
+	position: absolute;
+	left: 46%;
+	transform: translatex(-50%);
+	width: 70%;
+	height: 100vh;
+}
+input {
+	position: absolute;
+	top: -60px;
+	left: 50%;
+	transform: translatex(-50%);
+	-webkit-appearance: textfield;
+	-moz-appearance: textfield;
+	appearance: textfield;
+	width: 150px;
+	height: 40px;
+	padding: 0px 15px 10px 15px;
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(#a95),
+		to(#fea)
+	);
+	border-top: 8px ridge #ddd;
+	border-bottom: 8px groove #ddd;
+	border-right: 8px groove #ddd;
+	border-left: 8px ridge #ddd;
+	border-radius: 20px;
+	outline: 0;
+	color: #000000;
+	font-size: 28px;
+	font-weight: 400;
+	font-family: "Sirin Stencil", cursive;
+	text-align: center;
+}
+[type="number"] {
+	top: -70px;
+}
+[type="number"]::-webkit-inner-spin-button {
+	width: 30px;
+	height: 30px;
+	padding-left: 10px;
+	margin: 10px -10px 0 0;
+	opacity: 1;
+	color: #793;
+	cursor: pointer;
+}
+[type="text"] {
+	top: -20px;
+}
+
+.engage{
+	text-align: justify;
+	color: red;
+	
+}
+
+button {
+	
+	
+	position: absolute;
+	top: -60px;
+	left: 50%;
+	transform: translatex(+100px);
+	width: 65px;
+	height: 60px;
+	background-color: #00aa00;
+	border-top: 8px ridge #ddd;
+	border-bottom: 8px groove #ddd;
+	border-right: 8px groove #ddd;
+	border-left: 8px ridge #ddd;
+	border-radius: 100px;
+	color: #ffffff;
+}
+.canopy {
+	position: fixed;
+	bottom: -350px;
+	left: 50%;
+	transform: translatex(-50%);
+	width: 100%;
+	height: 140vh;
+	background-image: radial-gradient(#fff, #fff, #fff, #ccc, #ccc, #aaa);
+	border: 1px solid #333333;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	overflow: hidden;
+}
+img {
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 57%;
+	z-index: -1;
+}
+#spinner {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 7000px;
+	animation: roll 2s linear infinite alternate paused;
+}
+@keyframes roll {
+	from {
+		top: 0px;
+	}
+	to {
+		top: -4350px;
+	}
+}
+.dashboard {
+	position: absolute;
+	bottom: 70px;
+	left: 0;
+	width: 100%;
+	height: 170px;
+	background-color: #aaaa57;
+	border-radius: 50%;
+}
+.dashboard-bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 160px;
+	background-color: #79a87e;
+}
+.footwell {
+	position: absolute;
+	bottom: 0;
+	left: 5%;
+	width: 90%;
+	height: 60px;
+	background-color: #3f2738;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+hr {
+	margin-top: 30px;
+	border-color: #333333;
+	background-color: #333333;
+}
+#text {
+	display: block;
+	max-width: 240px;
+	padding: 5px;
+	margin: auto;
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(#a95),
+		to(#fea)
+	);
+	border-top: 8px ridge #ddd;
+	border-bottom: 8px groove #ddd;
+	border-right: 8px groove #ddd;
+	border-left: 8px ridge #ddd;
+	border-radius: 24px;
+	color: #000000;
+	font-weight: 900;
+	text-align: center;
+}
+#title {
+	position: absolute;
+	top: 350px;
+	left: 20px;
+	color: #ffffff;
+}
+#Title {
+	position: absolute;
+	top: 350px;
+	right: 30px;
+	color: #ffffff;
+}
+
+
+#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+  }
